@@ -1,0 +1,6 @@
+{
+  "name": "Gemini Lumina Synth - AI Chatbot",
+  "description": "Modern, fast, and responsive AI chatbot with persistent local storage, streaming responses, and free-tier Gemini API integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

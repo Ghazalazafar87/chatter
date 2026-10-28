@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Dark Mode Defaults */
+    --bg-canvas: #121318;
+    --bg-surface: #1e1f25;
+    --bg-surface-low: #1a1b21;
+    --bg-surface-high: #292a2f;
+    --bg-surface-highest: #34343a;
+    --border-color: #292a2f;
+    --border-subtle: #292a2f;
+    --text-primary: #e3e1e9;
+    --text-secondary: #bbcabf;
+    --text-muted: #86948a;
+    --accent-primary: #4edea3;
+    --accent-primary-text: #003824;
+    --accent-secondary: #c0c1ff;
+    --accent-tertiary: #4cd7f6;
+    --accent-rose: #f472b6;
+    --accent-amber: #fde047;
+    --composer-bg: rgba(26, 27, 33, 0.95);
+    --user-bubble-bg: #1e1f25;
+    --user-bubble-border: #292a2f;
+    --user-bubble-text: #e3e1e9;
+    --ai-card-bg: transparent;
+    --code-bg: #0d0e13;
+  }
+
+  /* Purple Pastel Theme (Lavender, Lilac & Soft Violet Palette) */
+  html.pastel {
+    --bg-canvas: #faf5ff;
+    --bg-surface: #ffffff;
+    --bg-surface-low: #f5f0ff;
+    --bg-surface-high: #ede4fa;
+    --bg-surface-highest: #e9d5ff;
+    --border-color: #e9d5ff;
+    --border-subtle: #f3e8ff;
+    --text-primary: #2e1065;
+    --text-secondary: #581c87;
+    --text-muted: #8b799f;
+    --accent-primary: #a855f7;
+    --accent-primary-text: #ffffff;
+    --accent-secondary: #c084fc;
+    --accent-tertiary: #d8b4fe;
+    --accent-rose: #f472b6;
+    --accent-amber: #fde047;
+    --composer-bg: rgba(255, 255, 255, 0.95);
+    --user-bubble-bg: #ede9fe;
+    --user-bubble-border: #d8b4fe;
+    --user-bubble-text: #2e1065;
+    --ai-card-bg: #ffffff;
+    --code-bg: #1e172f;
+  }
+
+  /* Light Theme */
+  html.light {
+    --bg-canvas: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-surface-low: #f1f5f9;
+    --bg-surface-high: #e2e8f0;
+    --bg-surface-highest: #cbd5e1;
+    --border-color: #e2e8f0;
+    --border-subtle: #cbd5e1;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    --accent-primary: #059669;
+    --accent-primary-text: #ffffff;
+    --accent-secondary: #6366f1;
+    --accent-tertiary: #0284c7;
+    --accent-rose: #e11d48;
+    --accent-amber: #d97706;
+    --composer-bg: rgba(255, 255, 255, 0.95);
+    --user-bubble-bg: #e2e8f0;
+    --user-bubble-border: #cbd5e1;
+    --user-bubble-text: #0f172a;
+    --ai-card-bg: #ffffff;
+    --code-bg: #0f172a;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    overscroll-behavior: none;
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(140, 150, 160, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(140, 150, 160, 0.45);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Pastel Theme Ambient Glows */
+html.pastel .ambient-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(196, 181, 253, 0.25) 0%, rgba(249, 168, 212, 0.15) 35%, rgba(110, 231, 183, 0.1) 70%, transparent 100%);
+}
+
+/* Dark Theme Ambient Glows */
+html.dark .ambient-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.12) 0%, rgba(6, 182, 212, 0.08) 40%, transparent 80%);
+}
+
+/* Light Theme Ambient Glows */
+html.light .ambient-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.1) 0%, rgba(14, 165, 233, 0.06) 40%, transparent 80%);
+}

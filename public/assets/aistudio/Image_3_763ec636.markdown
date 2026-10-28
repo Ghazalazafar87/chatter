@@ -1,0 +1,237 @@
+---
+name: Lumina Synth
+colors:
+  surface: '#121318'
+  surface-dim: '#121318'
+  surface-bright: '#38393f'
+  surface-container-lowest: '#0d0e13'
+  surface-container-low: '#1a1b21'
+  surface-container: '#1e1f25'
+  surface-container-high: '#292a2f'
+  surface-container-highest: '#34343a'
+  on-surface: '#e3e1e9'
+  on-surface-variant: '#bbcabf'
+  inverse-surface: '#e3e1e9'
+  inverse-on-surface: '#2f3036'
+  outline: '#86948a'
+  outline-variant: '#3c4a42'
+  surface-tint: '#4edea3'
+  primary: '#4edea3'
+  on-primary: '#003824'
+  primary-container: '#10b981'
+  on-primary-container: '#00422b'
+  inverse-primary: '#006c49'
+  secondary: '#c0c1ff'
+  on-secondary: '#1000a9'
+  secondary-container: '#3131c0'
+  on-secondary-container: '#b0b2ff'
+  tertiary: '#4cd7f6'
+  on-tertiary: '#003640'
+  tertiary-container: '#00b2d0'
+  on-tertiary-container: '#003f4b'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#6ffbbe'
+  primary-fixed-dim: '#4edea3'
+  on-primary-fixed: '#002113'
+  on-primary-fixed-variant: '#005236'
+  secondary-fixed: '#e1e0ff'
+  secondary-fixed-dim: '#c0c1ff'
+  on-secondary-fixed: '#07006c'
+  on-secondary-fixed-variant: '#2f2ebe'
+  tertiary-fixed: '#acedff'
+  tertiary-fixed-dim: '#4cd7f6'
+  on-tertiary-fixed: '#001f26'
+  on-tertiary-fixed-variant: '#004e5c'
+  background: '#121318'
+  on-background: '#e3e1e9'
+  surface-variant: '#34343a'
+typography:
+  headline-xl:
+    fontFamily: Geist
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  headline-xl-mobile:
+    fontFamily: Geist
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Geist
+    fontSize: 30px
+    fontWeight: '500'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Geist
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 30px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Geist
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 17px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Geist
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Geist
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0.005em
+  label-md:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  code-block:
+    fontFamily: JetBrains Mono
+    fontSize: 13.5px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-2xs: 0.25rem
+  space-xs: 0.5rem
+  space-sm: 0.75rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+This design system embodies a state-of-the-art computational workspace: razor-sharp, calm, and intellectually focused. Drawing from high-end software tools like linear command centers and modern generative AI canvases, the interface merges restrained Swiss minimalism with subtle photonic glass layers. 
+
+The aesthetic is characterized by:
+- Deep obsidian canvas planes providing boundless optical depth.
+- Tactile, precise interactive elements that respond with micro-glows rather than disruptive visual states.
+- High-contrast, mathematically rhythmic typography that guarantees legibility across long-form synthesis, technical markdown, and raw telemetry.
+- Whispering emerald and cool indigo chromatic highlights to signal system intelligence, live streaming states, and cognitive synthesis without producing visual exhaustion.
+
+## Colors
+
+The palette leverages pure low-reflectance neutral tones paired with luminous spectral accents.
+
+### Palette Architecture
+- **Primary (`#10B981` - Radiant Emerald):** Used for generative execution triggers, completion indicators, system uptime, active streaming beacons, and high-priority primary actions.
+- **Secondary (`#6366F1` - Electric Indigo):** Applied to AI model selectors, agent role tags, reasoning chain outlines, and contextual assistance flags.
+- **Tertiary (`#06B6D4` - Cyan Flux):** Reserved for technical tokens, search filters, prompt variable interpolations, and live token-generation counters.
+- **Neutrals (`#090A0F` base):**
+  - `surface-0` (`#07080B`): Base canvas & viewports.
+  - `surface-1` (`#0E1017`): Sidebar panels, sheet drawers, message streams.
+  - `surface-2` (`#161922`): Floating input fields, toolbars, user message envelopes.
+  - `surface-3` (`#212634`): Hover states, active tabs, floating popovers.
+  - `border-subtle` (`#1F2430`): Baseline separation lines.
+  - `border-focus` (`#374151`): Field active definitions and focus halos.
+  - `text-primary` (`#F3F4F6`): Uncompromised foreground legibility.
+  - `text-secondary` (`#9CA3AF`): Meta-information, token counts, timestamps.
+  - `text-muted` (`#6B7280`): Disabled triggers, subtle placeholders.
+
+## Typography
+
+The typographic hierarchy prioritizes rapid scannability, vertical cadence, and technical precision.
+- **Geist** delivers a neutral, geometric yet warm grotesque profile for conversation streams, interactive prompts, and application headers.
+- **JetBrains Mono** injects developer-grade clarity into metadata labels, parameter gauges, system tokens, latency benchmarks, and code render blocks.
+- **Body & Markdown Flow:** Assistant prose is rendered in `body-md` with relaxed vertical line-height (`24px`) to preserve reading endurance during dense analytical responses.
+
+## Layout & Spacing
+
+The workspace uses a dual-structure layout composed of a collapsible navigational pane paired with an anchored, center-weighted conversational stream.
+
+### Grid & Breakpoints
+- **Desktop (1024px+):** Sidebar fixed at `260px` (or collapsed to `64px` icon ribbon). Main chat viewport features an auto-centering column clamped at `768px` for optimal typographic reading length. Prompt composer pinned to bottom with responsive safe area offset.
+- **Tablet (768px - 1023px):** Sidebar converts to a slide-over off-canvas drawer. Conversation column stretches to fill viewport margins with `1.5rem` safety padding.
+- **Mobile (<768px):** Edge-to-edge layout, header pinned with minimal brand anchor, action-drawer overlays, composer docked flush against the virtual keyboard overlay.
+
+### Spacing Philosophy
+- Message turn gaps rely on `space-xl` (`2.5rem`) to cleanly segment conversational ownership.
+- Interior message groupings (e.g., prompt revisions, token telemetry, action toolbars) strictly adhere to `space-xs` and `space-sm` steps.
+
+## Elevation & Depth
+
+Visual hierarchy avoids heavy drop shadows, instead utilizing luminous dark surfaces, hair-thin optical borders, and backdrop filtering.
+
+1. **Surface 0 (Canvas Base):** Deepest level (`#07080B`), completely matte, non-reflective.
+2. **Surface 1 (Structural Paneling):** Sidebars and chat history drawers (`#0E1017`) bounded by a `1px` solid border (`#1F2430`).
+3. **Surface 2 (Floating Composer & Dialogue Cards):** Composer and cards utilize translucent glass backing: `background: rgba(22, 25, 34, 0.75)` with `backdrop-filter: blur(16px)` and top-edge highlight `box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.05)`.
+4. **Surface 3 (Overlays & Context Modals):** Command palettes and system preference sheets leverage ambient drop shadows: `0 20px 40px -15px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.08)`.
+
+## Shapes
+
+The design uses a refined curvature profile (`roundedness: 2`):
+- **Base Components (Inputs, Chips, Dropdowns):** `0.5rem` (`8px`) corner radius to create structured, technical confidence.
+- **Message Envelopes & Modals:** `1rem` (`16px`) for friendly encapsulation without cartoonish bloat.
+- **Pills & Selectors:** Full circular radius (`9999px`) reserved specifically for the floating Model Selector, status badges, and suggested starter chips.
+
+## Components
+
+### 1. Buttons
+- **Primary Button:** Emerald fill (`#10B981`), dark text (`#07080B`), font weight `500`. Hover brings a subtle luminescent outer spread (`box-shadow: 0 0 16px rgba(16, 185, 129, 0.35)`).
+- **Ghost/Tertiary Action:** Transparent background with `#9CA3AF` text. Hover yields `rgba(255, 255, 255, 0.04)` fill and `#F3F4F6` text.
+- **Icon Button:** Compact square (`32px` or `36px`) with `0.5rem` radius; strictly monochrome until active.
+
+### 2. Prompt Composer
+- Floating, detached island docked at the viewport bottom.
+- Outer container: `surface-2` with `backdrop-filter: blur(16px)` and rounded corner radius of `16px`.
+- Embedded top bar or trailing footer containing:
+  - **Attachment Icon Button:** Paperclip or plus icon with drag-and-drop file attachment ring.
+  - **Model Selector Pill:** Compact dropdown (`JetBrains Mono`, `12px`) showing active engine (e.g., `GPT-4o`, `Claude 3.5 Sonnet`) with a tiny Indigo dot indicator.
+  - **Send/Stop Button:** Transitions from a subtle upward arrow to an animated square (Emerald active ring) when output streams.
+
+### 3. Suggested Prompt Chips
+- Pill-shaped (`rounded: 9999px`) badges wrapped in `1px` subtle outline (`#1F2430`).
+- Background: `rgba(22, 25, 34, 0.5)`.
+- Interactive state: subtle scale up (`1.02x`), border transition to `#6366F1` (Indigo glow), and instant text brighten.
+
+### 4. Message Stream & Bubbles
+- **User Message:** Right-aligned or compact pill-aligned container, filled with subtle `surface-2` (`#161922`), crisp border, text in `#F3F4F6`.
+- **Assistant Message:** Left-aligned, transparent canvas integration (no enclosing pill) using high-fidelity markdown typography. Prefixed with an avatar glyph or glowing monochrome system insignia.
+- **Action Ribbon:** Appears beneath assistant turns on hover: Copy Markdown, Retry, Branch Thread, and Thumbs Up/Down icons in `text-muted`.
+
+### 5. Code Blocks
+- Darker slate shell (`#08090D`) with a slim header bar containing language name (`label-sm`, uppercase) and a 1-click "Copy Code" button.
+- Syntax highlighting: strict monochrome bases augmented with soft emerald, warm amber, and electric cyan for strings, functions, and keywords.
+- Monospaced typography with soft-wrap toggle option.
+
+### 6. Settings Modal & Dialogs
+- Centered dual-column layout: Left sidebar for tabs (General, Models, Speech, API Keys), Right pane for parameter configurations.
+- Sliders: Minimalist tracking rail with radiant emerald fill and thumb pill.
+- Key Value Toggles: Custom switch design using compact `16px` heights with immediate state response.
